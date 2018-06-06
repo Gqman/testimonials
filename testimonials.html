@@ -1,0 +1,191 @@
+<html>
+<title>testimonials</title>
+<style>
+	@media only screen and (min-width: 1366px) {
+                
+			#testi1{
+			position: absolute;
+			left: 5%;
+      right: 4.5%;
+			top: 5%;      
+			animation-name: zoomin;
+			animation-duration: 5s;
+		}	
+		#testi2{
+			position: absolute;
+			left: 5%;
+      right: 4.5%;
+			top: 38%;
+			animation-name: zoomin;
+			animation-duration: 11s;		
+		}	
+		#testi3{
+			position: absolute;
+			left: 85%;
+			top: 5%;
+      bottom: 70%;
+			animation-name: zoomin;
+			animation-duration: 8s;
+		}
+		#testi4{
+			position: absolute;
+			left: 85%;
+			top: 45%;		
+			animation-name: zoomin;
+			animation-duration: 14s;		
+		}
+		#testi5{
+			position: absolute;
+			left: 5%;
+      right: 4.5%;
+			top: 65%;		
+			animation-name: zoomin;
+			animation-duration: 17s;		
+		}
+        #testi6{
+			position: absolute;
+			left: 85%;
+      right: 5%;
+			top: 78%;		
+			animation-name: zoomin;
+			animation-duration: 20s;		
+		}
+           
+		.testi{
+			padding-top: 2em;
+			display: block;
+			width: 12em;
+			height: auto;
+      color: brown;
+			overflow-wrap: hidden;
+			word-break: normal;
+			text-size-adjust, -moz-text-size-adjust, -webkit-text-size-adjust, -ms-text-size-adjust: auto;
+			font-style: italic;
+			word-wrap: normal;
+			object-fit: cover;
+			font-size-adjust: fixed;
+            text-alignment: left;
+			
+		}
+		#testi1 > p, #testi2 > p, #testi3 > p, #testi4 > p, #testi5 > p, #testi6 > p{
+			font-style: normal;
+			color: #808080;
+		}
+		
+		
+		@keyframes zoomin{
+			0%{
+				opacity: 0;
+				font-size: 250%;
+				-webfont-size: 250%;
+				Position: absolute;
+				Left: 50%;
+				Top: 50%;
+			}
+			
+			75%{
+				opacity: .0;			
+				
+			}
+			80%{
+				opacity: .2;			
+				
+			}
+			
+			
+			100%{
+				opacity: 1;
+				font-size: 100%;
+				-webfont-size: 100%;
+				Position: absolute;
+				Left: inital;
+				Top: inital;
+			}
+		}
+	}
+	@media only screen and (max-width: 960px) {
+		#testi1, #testi2, #testi3, #testi4, #testi5, #testi6{
+			position: relative;
+		}
+		
+		#testi1 > p, #testi2 > p, #testi3 > p, #testi4 > p, #testi5 > p, #testi6 > p{
+			font-style: normal;
+			color: #808080;			
+		}
+	
+		.testi{
+			display: inline-block;
+		width: 15em;
+		align-items: center;
+		vertical-align: text-top;
+		height: auto;
+		overflow-wrap: hidden;
+		word-break: normal;
+		font-style: italic;
+		word-wrap: normal;
+		object-fit: cover;
+		font-size-adjust: fixed;
+		padding: 2em;
+		overflow: auto;
+		}
+		
+	}
+	</style>
+<body>
+  
+  <div id="testi1" class ="testi"> 
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos distinctio aperiam iure nemo nisi maiores, veniam culpa? Accusamus recusandae pariatur ipsam modi, minus consectetur a.
+    <br>
+    <p>
+      <bold>Big Red Dog.
+        Houston TX</bold>
+      </div>
+      <div id="testi2" class ="testi">
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, amet sequi ex atque eius quasi rerum nobis, delectus officia fugiat quia in quidem doloribus culpa?
+        <br>
+        <p>Michele L.
+          <br><p>
+          </div>
+          <div id="testi3" class ="testi">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis cupiditate modi vitae recusandae praesentium quod repudiandae, distinctio totam temporibus nisi veniam fugit asperiores dolorum corporis amet sit! Incidunt, suscipit hic!
+            <br><p>Daffy Duck
+              <br>
+              Somewhere over the rainbow </p>
+              <p>
+              </div>
+              <div id="testi4" class ="testi">
+               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque dolores facilis veritatis, cupiditate quidem vel consectetur quia ex aut ipsa.
+			  <p>Mickey Mouse
+          <br>
+          AMCE Co.
+          <br>
+          Springfield, Mo.      
+			  </p>
+        <p>
+		</div>
+		<div id = "testi5" class = "testi">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, perspiciatis sapiente, molestiae recusandae quam corporis blanditiis odit cupiditate odio ullam optio velit facere ratione eum quisquam ipsum earum dolores magnam inventore asperiores aliquid unde nulla!
+			<br>
+			<p>
+        Daffy Duck, President
+        <br> 
+        .
+        <br>
+        
+			</p>
+      <p>
+      </div>
+<div id = "testi6" class = "testi">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, quod maiores. Facere a possimus veritatis officiis saepe nihil ipsam officia, alias vero, aliquam doloribus itaque rem suscipit animi nostrum ab.
+  <br>
+			<p>
+        Sgt Pepper
+        <br> 
+        Lonely Hearts ClubBand
+        <br>
+        UK
+			</p>    
+  </div>
+</body>
+
+</html>
